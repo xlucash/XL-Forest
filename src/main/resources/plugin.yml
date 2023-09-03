@@ -1,0 +1,8 @@
+name: XLForest
+version: '${project.version}'
+main: me.xlucash.xlforest.XLForest
+api-version: '1.19'
+commands:
+  forest:
+    description: Reloads the plugin configuration
+    usage: /<command> reload
