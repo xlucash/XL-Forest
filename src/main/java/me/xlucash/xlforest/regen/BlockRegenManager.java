@@ -43,7 +43,9 @@ public class BlockRegenManager {
     }
 
     public boolean isLog(Material material) {
-        return material == Material.OAK_LOG || material == Material.BIRCH_LOG || material == Material.SPRUCE_LOG
-                || material == Material.JUNGLE_LOG || material == Material.ACACIA_LOG || material == Material.DARK_OAK_LOG;
+        return material == Material.OAK_LOG || material == Material.BIRCH_LOG
+                || material == Material.SPRUCE_LOG || material == Material.MANGROVE_LOG
+                || material == Material.JUNGLE_LOG || material == Material.ACACIA_LOG
+                || material == Material.DARK_OAK_LOG;
     }
 }

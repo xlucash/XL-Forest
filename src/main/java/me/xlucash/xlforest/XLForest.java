@@ -22,6 +22,8 @@ public final class XLForest extends JavaPlugin {
 
         getServer().getPluginManager().registerEvents(listener, this);
         getCommand("forest").setExecutor(commandExecutor);
+
+        saveDefaultConfig();
     }
 
     @Override
